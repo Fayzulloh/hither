@@ -2,8 +2,9 @@
 #include <cstdlib>
 
 int main(){
+    int x;
     while (true) {
-        int x = rand() % 2;
+        x = rand() % 2;
         std::cout << x;
     }
     return 0;
